@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ComprehensivePrograms" duration-ms="32416" started-at="2023-12-25T18:23:24 IST" finished-at="2023-12-25T18:23:57 IST">
+    <groups>
+    </groups>
+    <test name="ComprehensiveTest" duration-ms="32416" started-at="2023-12-25T18:23:24 IST" finished-at="2023-12-25T18:23:57 IST">
+      <class name="SDET.TestNGComprehensivePrograms.Implementation5">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="setBrowser" is-config="true" duration-ms="21682" started-at="2023-12-25T18:23:03 IST" finished-at="2023-12-25T18:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="clickLinks(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="clickLinks" duration-ms="8427" started-at="2023-12-25T18:23:24 IST" data-provider="getTestData_Click" finished-at="2023-12-25T18:23:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[@href='/why-autify']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='container whyAutify-header']//h1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinks -->
+        <test-method status="PASS" signature="clickLinks(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="clickLinks" duration-ms="11583" started-at="2023-12-25T18:23:33 IST" data-provider="getTestData_Click" finished-at="2023-12-25T18:23:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[@href='/pricing']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(//div[@class='heading'])[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinks -->
+        <test-method status="PASS" signature="clickLinks(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="clickLinks" duration-ms="7691" started-at="2023-12-25T18:23:45 IST" data-provider="getTestData_Click" finished-at="2023-12-25T18:23:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[@href='/webinars']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='container ']//h1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinks -->
+        <test-method status="PASS" signature="clickLinks(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="clickLinks" duration-ms="4037" started-at="2023-12-25T18:23:52 IST" data-provider="getTestData_Click" finished-at="2023-12-25T18:23:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//span[@class='menu-image-title-after menu-image-title'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='container container-sm']//h1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLinks -->
+        <test-method status="PASS" signature="verifyUrl(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="verifyUrl" duration-ms="159" started-at="2023-12-25T18:23:56 IST" data-provider="getTestData_Verify" finished-at="2023-12-25T18:23:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Why Autify]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[@href='/why-autify']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyUrl(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="verifyUrl" duration-ms="96" started-at="2023-12-25T18:23:56 IST" data-provider="getTestData_Verify" finished-at="2023-12-25T18:23:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pricing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[@href='/pricing']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyUrl(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="verifyUrl" duration-ms="102" started-at="2023-12-25T18:23:57 IST" data-provider="getTestData_Verify" finished-at="2023-12-25T18:23:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webinars]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[@href='/webinars']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyUrl(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="verifyUrl" duration-ms="90" started-at="2023-12-25T18:23:57 IST" data-provider="getTestData_Verify" finished-at="2023-12-25T18:23:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Resources]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[(//a[@href='#'])[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="verifyUrl(java.lang.String,java.lang.String)[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="verifyUrl" duration-ms="58" started-at="2023-12-25T18:23:57 IST" data-provider="getTestData_Verify" finished-at="2023-12-25T18:23:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//a[@title='Start Free Trial'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//a[@title='Sign in']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SDET.TestNGComprehensivePrograms.Implementation5@50d0686]" name="closeBrowser" is-config="true" duration-ms="1594" started-at="2023-12-25T18:23:59 IST" finished-at="2023-12-25T18:24:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SDET.TestNGComprehensivePrograms.Implementation5 -->
+    </test> <!-- ComprehensiveTest -->
+  </suite> <!-- ComprehensivePrograms -->
+</testng-results>
