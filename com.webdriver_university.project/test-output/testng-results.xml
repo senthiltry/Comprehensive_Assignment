@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg Suite" duration-ms="109889" started-at="2024-01-09T16:14:12Z" finished-at="2024-01-09T16:16:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunnerPackage.RunnerClass@6536e911]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="TC_001" duration-ms="109889" started-at="2024-01-09T16:14:12Z" finished-at="2024-01-09T16:16:02Z">
+      <class name="cucumberRunnerPackage.RunnerClass">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberRunnerPackage.RunnerClass@6536e911]" name="setUpClass" is-config="true" duration-ms="2170" started-at="2024-01-09T21:44:12Z" finished-at="2024-01-09T21:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b8280e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunnerPackage.RunnerClass@6536e911]" name="runScenario" duration-ms="104004" started-at="2024-01-09T21:44:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-09T21:45:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["WebDriver | IFrame tab validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["WebdriverUniversity.com"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberRunnerPackage.RunnerClass@6536e911]" name="tearDownClass" is-config="true" duration-ms="3651" started-at="2024-01-09T21:45:58Z" finished-at="2024-01-09T21:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunnerPackage.RunnerClass -->
+    </test> <!-- TC_001 -->
+  </suite> <!-- TestNg Suite -->
+</testng-results>

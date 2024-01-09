@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Suite]">
+  <test name="TC_001(failed)">
+    <classes>
+      <class name="cucumberRunnerPackage.RunnerClass">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- cucumberRunnerPackage.RunnerClass -->
+    </classes>
+  </test> <!-- TC_001(failed) -->
+</suite> <!-- Failed suite [TestNg Suite] -->

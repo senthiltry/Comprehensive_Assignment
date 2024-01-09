@@ -1,0 +1,7 @@
+<suite name="TestNg Suite">
+	<test name="TC_001">
+		<classes>
+			<class name="cucumberRunnerPackage.RunnerClass"></class>
+		</classes>
+	</test>
+</suite>

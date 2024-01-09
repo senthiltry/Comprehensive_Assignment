@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12179" started-at="2024-01-09T21:17:16 IST" finished-at="2024-01-09T21:17:29 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12179" started-at="2024-01-09T21:17:16 IST" finished-at="2024-01-09T21:17:29 IST">
+      <class name="reqresPackage.ReqresAPI_Tests">
+        <test-method status="PASS" signature="configExcel()[pri:0, instance:reqresPackage.ReqresAPI_Tests@59906517]" name="configExcel" is-config="true" duration-ms="3395" started-at="2024-01-09T21:17:13 IST" finished-at="2024-01-09T21:17:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configExcel -->
+        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:reqresPackage.ReqresAPI_Tests@59906517]" name="setBaseURI" is-config="true" duration-ms="1843" started-at="2024-01-09T21:17:16 IST" finished-at="2024-01-09T21:17:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURI -->
+        <test-method status="PASS" signature="positiveCase()[pri:1, instance:reqresPackage.ReqresAPI_Tests@59906517]" name="positiveCase" duration-ms="9184" started-at="2024-01-09T21:17:18 IST" finished-at="2024-01-09T21:17:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCase -->
+        <test-method status="PASS" signature="negativeCase()[pri:2, instance:reqresPackage.ReqresAPI_Tests@59906517]" name="negativeCase" duration-ms="1093" started-at="2024-01-09T21:17:27 IST" finished-at="2024-01-09T21:17:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeCase -->
+        <test-method status="PASS" signature="closeXlConnections()[pri:0, instance:reqresPackage.ReqresAPI_Tests@59906517]" name="closeXlConnections" is-config="true" duration-ms="1" started-at="2024-01-09T21:17:29 IST" finished-at="2024-01-09T21:17:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeXlConnections -->
+      </class> <!-- reqresPackage.ReqresAPI_Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

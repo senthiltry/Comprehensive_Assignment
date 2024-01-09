@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="104.297">
+<testcase classname="WebdriverUniversity.com" name="WebDriver | IFrame tab validation" time="103.799">
+<system-out><![CDATA[Given user navigates to the application.....................................passed
+And verifies the main page title: "WebDriverUniversity.com".................passed
+When user clicks on "IFRAME" link...........................................passed
+Then new tab with page title: "WebDriver * IFrame" is opened................passed
+And user verifies the navigation through images.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
